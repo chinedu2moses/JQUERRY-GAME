@@ -1,0 +1,17 @@
+body {
+    background-color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-direction: calc();
+    height: 75%;
+
+}
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    
+
+}
